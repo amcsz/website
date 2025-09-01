@@ -11,7 +11,7 @@ This is a list of programming projects I've worked on. It may be incomplete, but
 ### TJCT Autograder v2
 ##### Links: [docker setup](https://github.com/TJ-Computer-Team/devenv), [website](https://github.com/TJ-Computer-Team/autograder2), [coderunner](https://github.com/TJ-Computer-Team/coderunner)
 
-Created a new autograder system for our school's computer team in place of the old one. It is similar to codeforces and holds in-house contests regularly for our school.
+I created a new autograder system for our school's computer team in place of the old one. It is similar to codeforces and holds in-house contests regularly for our school.
 
 The outfacing website was written in Django, with PostgreSQL to store user data. The internal system uses celery to manage submission tasks, which allows control over the number of concurrent tasks running at any given time. The coderunning service was written in rust for performance, and uses nsjail to sandbox user submissions in an isolated environment.
 
