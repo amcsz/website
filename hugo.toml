@@ -17,7 +17,7 @@ pagination.pagerSize = 5
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
   showLanguageSelector = false
@@ -79,7 +79,7 @@ pagination.pagerSize = 5
     title = "Samuel Chow"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "Samuel Chow's Homepage"
       owner = ""
       keywords = ""
       copyright = ""
@@ -93,15 +93,26 @@ pagination.pagerSize = 5
       minuteReadingTime = "min read"
       words = "words"
 
-      [languages.en.params.logo]
+    [languages.en.params.logo]
         logoText = "Samuel Chow"
         logoHomeLink = "/"
 
-      [languages.en.menu]
-        [[languages.en.menu.main]]
-          identifier = "showcase"
-          name = "Showcase"
-          url = "/showcase"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+            identifier = "projects"
+            name = "Projects"
+            url = "/projects"
+            weight = 10
+            [[languages.en.menu.main]]
+            identifier = "contact"
+            name = "Contact"
+            url = "/contact"
+            weight = 20
+            [[languages.en.menu.main]]
+            identifier = "socials"
+            name = "Socials"
+            url = "/socials"
+            weight = 30
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,

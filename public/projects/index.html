@@ -2,16 +2,19 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Tags :: Samuel Chow</title>
+    <title>Projects :: Samuel Chow</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content="Projects This is a list of programming projects I&rsquo;ve worked on. It may be incomplete, but my github has most of the code I&rsquo;ve written.
+TJCT Autograder v2 Links: docker setup, website, coderunner Created a new autograder system for our school&rsquo;s computer team in place of the old one. It is similar to codeforces and holds in-house contests regularly for our school.
+The outfacing website was written in Django, with PostgreSQL to store user data. The internal system uses celery to manage submission tasks, which allows control over the number of concurrent tasks running at any given time. The coderunning service was written in rust for performance, and uses nsjail to sandbox user submissions in an isolated environment.
+" />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="http://localhost:1313/tags/" />
+<link rel="canonical" href="http://localhost:1313/projects/" />
 
 
 
@@ -77,9 +80,12 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Tags">
-<meta property="og:description" content="" />
-<meta property="og:url" content="http://localhost:1313/tags/" />
+<meta property="og:title" content="Projects">
+<meta property="og:description" content="Projects This is a list of programming projects I&rsquo;ve worked on. It may be incomplete, but my github has most of the code I&rsquo;ve written.
+TJCT Autograder v2 Links: docker setup, website, coderunner Created a new autograder system for our school&rsquo;s computer team in place of the old one. It is similar to codeforces and holds in-house contests regularly for our school.
+The outfacing website was written in Django, with PostgreSQL to store user data. The internal system uses celery to manage submission tasks, which allows control over the number of concurrent tasks running at any given time. The coderunning service was written in rust for performance, and uses nsjail to sandbox user submissions in an isolated environment.
+" />
+<meta property="og:url" content="http://localhost:1313/projects/" />
 <meta property="og:site_name" content="Samuel Chow" />
 
   <meta property="og:image" content="http://localhost:1313/og-image.png">
@@ -88,10 +94,12 @@
 <meta property="og:image:height" content="627">
 
 
+  <meta property="article:published_time" content="2025-09-01 00:00:00 &#43;0000 UTC" />
 
 
 
-  <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Samuel Chow" />
+
+  <link href="/projects/index.xml" rel="alternate" type="application/rss+xml" title="Samuel Chow" />
 
 
 
@@ -171,13 +179,34 @@
 
   <div class="content">
     
-  <div class="terms">
-    <h1>Tags</h1>
+  
+    <div class="index-content">
+      <h1 id="projects">Projects</h1>
+<p>This is a list of programming projects I&rsquo;ve worked on. It may be incomplete, but my <a href="https://github.com/amcsz">github</a> has most of the code I&rsquo;ve written.</p>
+<hr>
+<h3 id="tjct-autograder-v2">TJCT Autograder v2</h3>
+<h5 id="links-docker-setuphttpsgithubcomtj-computer-teamdevenv-websitehttpsgithubcomtj-computer-teamautograder2-coderunnerhttpsgithubcomtj-computer-teamcoderunner">Links: <a href="https://github.com/TJ-Computer-Team/devenv">docker setup</a>, <a href="https://github.com/TJ-Computer-Team/autograder2">website</a>, <a href="https://github.com/TJ-Computer-Team/coderunner">coderunner</a></h5>
+<p>Created a new autograder system for our school&rsquo;s computer team in place of the old one. It is similar to codeforces and holds in-house contests regularly for our school.</p>
+<p>The outfacing website was written in Django, with PostgreSQL to store user data. The internal system uses celery to manage submission tasks, which allows control over the number of concurrent tasks running at any given time. The coderunning service was written in rust for performance, and uses nsjail to sandbox user submissions in an isolated environment.</p>
+<p>In <a href="https://tjctgrader.org/">production</a>, the website is run using two GCP virtual machines, one for the website and one for the coderunner, with nginx serving as a reverse proxy for both the website and for communication between the website and coderunner VMs.</p>
+<hr>
+<h3 id="cserver">cserver</h3>
+<h5 id="links-githubhttpsgithubcomamcszcserver">Links: <a href="https://github.com/amcsz/cserver">github</a></h5>
+<p>A WIP web server, written in c.</p>
+
+    </div>
+  
+  <div class="posts">
     
-    <ul>
-      
-      
-    </ul>
+
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+    
+    
+  </div>
+</div>
+
   </div>
 
   </div>
